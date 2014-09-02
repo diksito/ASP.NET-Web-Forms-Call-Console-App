@@ -9,7 +9,7 @@
         <asp:TextBox ID="aValue" runat="server"></asp:TextBox>
         <asp:DropDownList ID="actionList" runat="server">
             <asp:ListItem Text="+" Value="add" />
-            <asp:ListItem Text="-" Value="substract" />
+            <asp:ListItem Text="-" Value="subtract" />
             <asp:ListItem Text="*" Value="multiply" />
             <asp:ListItem Text="/" Value="divide" />
         </asp:DropDownList>

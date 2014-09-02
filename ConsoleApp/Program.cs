@@ -22,8 +22,8 @@ namespace ConsoleApp
                     case "add":
                         result = add(a, b);
                         break;
-                    case "substract":
-                        result = substract(a, b);
+                    case "subtract":
+                        result = subtract(a, b);
                         break;
                     case "multiply":
                         result = multiply(a, b);
@@ -45,7 +45,7 @@ namespace ConsoleApp
         {
             return a + b;
         }
-        private static double substract(double a, double b)
+        private static double subtract(double a, double b)
         {
             return a - b;
         }
