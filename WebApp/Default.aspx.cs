@@ -24,7 +24,8 @@ namespace WebApp
             double.TryParse(bValue.Text, out y);
 
             Process process = new Process();
-            process.StartInfo.FileName = @"C:\Users\Nikolay\Desktop\ASP NET and Console App\ConsoleApp\bin\Debug\ConsoleApp.exe";
+            // Set full path to FileName
+            process.StartInfo.FileName = @"E:\Demo\ConsoleApp.exe";
             process.StartInfo.Arguments = action + " " + x + " " + y;
             process.StartInfo.UseShellExecute = false;
             process.StartInfo.RedirectStandardOutput = true;
